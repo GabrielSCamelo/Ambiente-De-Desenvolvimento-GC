@@ -10,7 +10,7 @@
                 $disciplinas = array("3DAW","3ALG","3RSD","3PBD");
                 var_dump($disciplinas);
 
-                for ($cont = 0; $cont < 3;$cont++) {
+                for ($cont = 0; $cont <= 3;$cont++) {
                 echo $disciplinas[$cont];
                 echo "<br>";
                 }
